@@ -6,20 +6,22 @@
     <coordinates>
       <x>500</x>
       <y>120</y>
-      <w>210</w>
-      <h>190</h>
+      <w>200</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>
 Veiw
 
 --
-Presentation to the user and
-displays the intrection tools
+Application desigin that
+highlights key features and 
+helps user interact with the 
+software. 
 
-Examles contacts, buttons
-live streamed videos, checkbox,
-login display, frame, message
--board
+Display features examples: 
+contacts, buttons, videos, 
+checkbox, login display, frame,
+messageboard
 
 
 fg=black
@@ -39,6 +41,13 @@ Controller
 
 --
 
+Listents for veiwers interaction
+and sends update request 
+to model to confirm access to 
+features like personal account, 
+contact list, settings, and 
+sending messages and videos
+
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
@@ -46,9 +55,9 @@ bg=light_gray</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>130</x>
-      <y>120</y>
+      <y>110</y>
       <w>210</w>
-      <h>190</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>
 Model
@@ -62,40 +71,40 @@ bg=light_gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>300</y>
+      <y>330</y>
       <w>190</w>
-      <h>250</h>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;230.0;170.0;230.0;170.0;10.0</additional_attributes>
+    <additional_attributes>10.0;200.0;170.0;200.0;170.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>300</y>
+      <y>330</y>
       <w>150</w>
-      <h>210</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>130.0;10.0;130.0;190.0;10.0;190.0</additional_attributes>
+    <additional_attributes>130.0;10.0;130.0;160.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>300</y>
-      <w>120</w>
-      <h>160</h>
+      <x>330</x>
+      <y>220</y>
+      <w>190</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;140.0;100.0;140.0;100.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>530</x>
-      <y>410</y>
+      <x>380</x>
+      <y>210</y>
       <w>70</w>
       <h>20</h>
     </coordinates>
@@ -124,6 +133,65 @@ style=wordwrap</panel_attributes>
       <h>20</h>
     </coordinates>
     <panel_attributes>Listens for interaction
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>740</x>
+      <y>20</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Actor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>50</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>620</x>
+      <y>60</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>User interacts 
+    with view
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>310</y>
+      <w>190</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0;170.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>170</x>
+      <y>490</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Calls Model to 
+preform action
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
