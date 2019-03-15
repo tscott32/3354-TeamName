@@ -13,12 +13,12 @@
 Veiw
 
 --
-Application design that
+Application design which
 highlights key features and 
 helps user interact with the 
 software. 
 
-Display features examples: 
+Display feature examples: 
 contacts, buttons, videos, 
 checkbox, login display, frame,
 message board
@@ -72,9 +72,9 @@ and handles operations to the data
 depending on the request sent from
 the controller (Login not granted 
 if passwords not correct, send 
-message to username the user has
-specified, create group and private
-chat.
+message to username that the user 
+has specified, create group or
+private chat.
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
